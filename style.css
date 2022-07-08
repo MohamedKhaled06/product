@@ -1,0 +1,100 @@
+/* start global value */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:  hsl(30, 38%, 92%) !important;
+    
+}
+p {
+    font-size: 14px;
+}
+/* end global value */
+/* start card */
+.card {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,25%);
+    border-radius: 10px !important;
+}
+.card img {
+    border-radius: 10px 0 0 10px;
+    height: 100%;
+}
+.card-body {
+    padding: 2rem 1rem !important;
+}
+.card .card-body .card-title {
+    font-family: "Montserrat" !important;
+    font-weight: 500;
+    opacity: 70%;
+    letter-spacing: 3px;
+    padding-bottom: 5px;
+}
+.card .card-body h3 {
+    font-weight: 700;   
+    font-family: "Fraunces";
+    font-size: 31px;
+    text-transform: capitalize;
+    color: hsl(212, 21%, 14%);
+
+}
+.card .card-body .para-text {
+    font-family: "Montserrat";
+    opacity: .8;
+    font-size: 14px;
+}
+.card .card-body .price {
+    position: relative;
+    font-size: 31px;
+    font-family:"Fraunces";
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+}
+.card .card-body .price-offer{
+    position: absolute;
+    font-family: "Montserrat";
+    opacity: .5;
+    font-size: 14px;
+    top: 10px;
+    left: 140px;
+    color: black;
+}
+.card .card-body button {
+    background-color: hsl(158, 36%, 37%);
+    width: 220px;
+    color: white;
+    border: 0;
+    padding: 12px 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: "Montserrat";
+}
+.card .card-body button span{
+    margin-left:10px !important;
+}
+@media only screen and (max-width: 768px) {
+/* For mobile phones: */
+.card {
+    top: 0;
+    margin: 10px 20px;
+    border-radius: 10px !important;
+    width: 325px;
+}
+.card img {
+    width: 120%;
+    border-radius: 10px 10px 0 0;
+    height: 350px;
+}
+    body {
+        width: 100%;
+    }
+    .card .card-body button {
+        width: 278px;
+    }
+}
+
+/* end card */
